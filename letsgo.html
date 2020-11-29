@@ -8,15 +8,23 @@
     <!--    <script src="like-button.js"></script>  -->
 </head>
 <body>
-<div id="root"></div>
-<script>
-    const e = React.createElement;
+    <div id="root"></div>
+    <script>
+        const e = React.createElement;
 
-    class LikeButton extends React.Component {
-        constructor(props) {
-            super(props);
+        class LikeButton extends React.Component {
+            constructor(props) {
+                super(props);
+            }
+
+            render(){
+                return e('button', null, 'Like'); // <button>Like</button>
+            }
         }
-    }
-</script>
+    </script>
+    <scirpt>
+        ReactDOM.render(e(LikeButton), document.querySelector('#root'));
+
+    </scirpt>
 </body>
 </html>
