@@ -11,10 +11,16 @@
     class LikeButton extends React.Component {
         constructor(props) {
             super(props);
+            this.state={
+              liked: false,
+
+            };
         }
 
         render() {
-            return e('button', {onClick: ()=>{console.log('clicked')}}, 'Like'); //button tag prepare
+            return e('button', {onClick: () => {this.setState({liked: true})}, type: 'submit'},
+                this.state.liked === true ? 'Liked' : 'Like',
+                ); //button tag prepare, 속성은 camel case 로
         }
     }
 </script>
