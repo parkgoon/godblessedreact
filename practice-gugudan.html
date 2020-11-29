@@ -24,19 +24,19 @@
 
                 onSubmit = (e) => {
                     e.preventDefault();
-                    if (parseInt(value) === this.state.first * this.state.second){
+                    if (parseInt(this.state.value) === this.state.first * this.state.second){
                         this.setState({
-                            result: '정답',
+                            result: this.state.value+' : 정답 맞음',
                             first: Math.ceil(Math.random() * 9),
                             second: Math.ceil(Math.random() * 9),
                             value: '',
                         });
                     } else {
                         this.setState({
-                            result: '땡',
+                            result: this.state.value + ' : 땡',
                             value: '',
                         });
-                    }음
+                    }
                 };
 
                 onChange = (e) => {
