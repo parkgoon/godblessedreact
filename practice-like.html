@@ -6,6 +6,7 @@
 </head>
 <body>
     <div id="root"></div>
+    <div id="root2"></div>
     <script type="text/babel">
         // const e = React.createElement;
 
@@ -27,9 +28,15 @@
                 //     ); //button tag prepare, 속성은 camel case 로
             }
         }
+        //<button onClick={onclick}>Like2</button>
     </script>
     <script type="text/babel">
-        ReactDOM.render(<div><LikeButton /><LikeButton /><LikeButton /></div>, document.querySelector('#root'));    //root div 에 그리
+        ReactDOM.render(<div>
+            <button onClick={onclick}>Like2</button>
+            <button onClick={onclick}>Like2</button>
+            <button onClick={onclick}>Like2</button>
+        </div>, document.querySelector('#root'));
+        ReactDOM.render(<div><LikeButton /><LikeButton /><LikeButton /></div>, document.querySelector('#root2'));    //root div 에 그리
     </script>
 </body>
 </html>
