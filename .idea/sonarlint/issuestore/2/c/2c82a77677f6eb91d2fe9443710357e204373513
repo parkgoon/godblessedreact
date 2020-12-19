@@ -1,10 +1,10 @@
 
-PWeb:AvoidCommentedOutCodeCheck2"Remove this commented out code.(ÀÖŸÒ8¿ŸÕ”á.
 UWeb:AvoidCommentedOutCodeCheck	"Remove this commented out code.(Æ×¿Áûÿÿÿÿ8µùË”á.
 PWeb:AvoidCommentedOutCodeCheck3"Remove this commented out code.(ŒóÖÊ8¿ŸÕ”á.
-a	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8ŞÜ¸”á.
 UWeb:AvoidCommentedOutCodeCheck1"Remove this commented out code.(Ìµµ¬şÿÿÿÿ8¿ŸÕ”á.
 jWeb:DoctypePresenceCheck":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ8ò¼·”á.
 UWeb:AvoidCommentedOutCodeCheck
 "Remove this commented out code.(Ñ÷†ûÿÿÿÿ8µùË”á.
 JWeb:PageWithoutTitleCheck"Add a <title> tag to this page.(Õ¶¯M8ØË¹”á.
+PWeb:AvoidCommentedOutCodeCheck2"Remove this commented out code.(ÀÖŸÒ8¿ŸÕ”á.
+a	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8ŞÜ¸”á.
