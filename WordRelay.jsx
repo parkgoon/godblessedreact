@@ -44,7 +44,7 @@ class WordRelay extends Component {
                     <button>입력!</button>
                 </form>
                 <div>{this.state.result}</div>
-                <br/><div> published by (주)삼손 </div>
+                <br/><div> published by (주)삼손  </div>
             </>
         );
     }
